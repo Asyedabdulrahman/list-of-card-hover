@@ -9,12 +9,17 @@ body, html {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
 }
 
+h3{
+    color: white;
+ }
 .list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
